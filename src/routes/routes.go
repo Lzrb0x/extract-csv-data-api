@@ -6,5 +6,5 @@ import (
 )
 
 func InitRoutes(r *gin.RouterGroup) {
-	r.POST("import/drivers", controller.ImportDrivers)
+	r.POST("import/csv", controller.ImportCSV)
 }
